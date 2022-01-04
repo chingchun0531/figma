@@ -6,8 +6,8 @@
 header {
   background-color: #c4c4c4;
   width: 100%;
-  padding: 1rem;/*rem:相對位置*/
-  font-family: 'Satisfy', cursive;
+  padding: 1rem;/*rem:相對單位*/
+  font-family: 'Satisfy', cursive;/*google material font*/
 }
 .headTitle{
   font-size: 2.5rem;
@@ -16,7 +16,7 @@ header {
   font-size: 1rem;
 }
 nav {
-  background-color:#C6E3A8;
+  background-color:#c6e3a8;
   position: sticky;/*鎖在最上面*/
   top: 0;
 }
@@ -36,15 +36,7 @@ nav ul li a {
   font-family: 'Caveat', cursive;
   font-size: 1.5rem;
 }
-nav ul li span {
-  text-decoration: none;
-  transition: all 0.25s ease;/*動畫漸顯示*/
-}
 nav ul li a:hover{
-  background-color: rgb(54, 100, 50);
-  color: white;
-}
-nav ul li span:hover{
   background-color: rgb(54, 100, 50);
   color: white;
 }
@@ -54,15 +46,44 @@ p{
 main{
   width: 100%;/*內容區域的寬度*/
   display: flex;/*調整外容器與內元件的排列方式*/
+  flex-wrap: wrap;
 }
-section.left,section.right{
+section.right{
+  background-color: #c4c4c4;
   padding: 1.5rem;
+  flex: 1 1 250px;/*讓右邊縮時往下移*/
+}
+section.left{
+  padding: 1.5rem;
+  flex: 4 1 350px;/*???*/
 }
 section.right h4{
   font-size: 1.25rem;
   text-align: center;
 }
+section.lefta h4,section.righta h4{
+  font-size: 1.25rem;
+}
 section.lefta,section.righta{
   padding: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight:900;
+}
+section.left div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+footer{
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #c6e3a8;
+  font-family: 'Satisfy', cursive;
+}
+@media screen and (max-width:900px) {
+  div#img img{
+    width: 100%;
+    height: 100%;
+  }
 }
