@@ -40,6 +40,10 @@ nav ul li a:hover{
   background-color: rgb(54, 100, 50);
   color: white;
 }
+nav ul li input{
+  padding: 0.5rem 0.75rem;
+  margin-left: 30rem;
+}
 p{
   font-family: 'Noto Sans TC', sans-serif;
 }
