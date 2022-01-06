@@ -1,6 +1,6 @@
 const header = document.querySelector('header');
 const section = document.querySelector('section');
-
+//API request
 var requestURL='https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
 var request = new XMLHttpRequest();//API(XHR)
 
@@ -52,3 +52,4 @@ function showHeros(jsonObj){
         section.appendChild(myArticle);
     }
 }
+

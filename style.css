@@ -18,7 +18,7 @@ section article {
   background-color: white;
   float: left;
   text-align: center;
-  width: 33.3%;
+  width: 33.3%;/*切三等分*/
   height: 230px;
 }
 section h2 {
@@ -78,7 +78,7 @@ section.right{
 }
 section.left{
   padding: 1.5rem;
-  flex: 4 1 350px;/*???*/
+  flex: 4 1 350px;/* 三個值: flex-grow | flex-shrink | flex-basis */
 }
 section.right h4{
   font-size: 1.25rem;
@@ -102,6 +102,9 @@ footer{
   text-align: center;
   padding: 0.5rem;
   background-color: #c6e3a8;
+  font-family: 'Satisfy', cursive;
+}
+footer p {
   font-family: 'Satisfy', cursive;
 }
 @media screen and (max-width:900px) {

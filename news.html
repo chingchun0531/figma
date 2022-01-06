@@ -14,8 +14,7 @@
   </head>
   <body>
     <header>
-      <h1 class="headTitle">FrontedDesignSample</h1>
-      <h3 class="headText">fronted design & about my life</h3>
+
     </header>
     <nav>
       <ul>
@@ -30,8 +29,13 @@
     </section>
     <script src="script.js"></script>
     <footer>
+      <p id="date"></p>
       <span class="material-icons">emoji_nature</span>
       Wish you have a good day :) -Veronica.lin
     </footer>
+    <script>
+      const d = new Date();
+      document.getElementById('date').innerHTML = d;
+    </script>
   </body>
 </html>
