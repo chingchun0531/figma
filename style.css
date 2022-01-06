@@ -9,6 +9,24 @@ header {
   padding: 1rem;/*rem:相對單位*/
   font-family: 'Satisfy', cursive;/*google material font*/
 }
+header p {
+  font-family: 'Satisfy', cursive;
+  font-size: 1rem;
+  font-weight: bold;/*粗體*/
+}
+section article {
+  background-color: white;
+  float: left;
+  text-align: center;
+  width: 33.3%;
+  height: 230px;
+}
+section h2 {
+  font-family: 'Satisfy', cursive;
+}
+section p {
+  font-family: 'Noto Sans TC', sans-serif;
+}
 .headTitle{
   font-size: 2.5rem;
 }
@@ -48,6 +66,7 @@ p{
   font-family: 'Noto Sans TC', sans-serif;
 }
 main{
+  height: 100%;
   width: 100%;/*內容區域的寬度*/
   display: flex;/*調整外容器與內元件的排列方式*/
   flex-wrap: wrap;
