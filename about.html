@@ -18,11 +18,20 @@
       <h3 class="headText">fronted design & about my life</h3>
     </header>
     <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="./stories.html">Stories</a></li>
-        <li><a href="./news.html">News</a></li>
+      <ul class="container">
+        <div class="leftb">
+          <li><a class="item" href="./index.html">Home</a></li>
+          <li><a class="item" href="#">About</a></li>
+          <li><a class="item" href="./stories.html">Stories</a></li>
+          <li><a class="item" href="./school.html">MySchool</a></li>
+          <li><a class="item" href="./news.html">News</a></li>          
+        </div>
+        <div class="rightb">
+          <li><a class="item" href="#">LogIn</a></li>
+          <li><a class="item" href="#">SignUp</a></li>
+          <input class="search" type="text" placeholder="search...">
+          <button type="submit">Search</button>
+        </div>
       </ul>
     </nav>
     <main>
@@ -50,9 +59,6 @@
       <span class="material-icons">emoji_nature</span>
       Wish you have a good day :) -Veronica.lin
     </footer>
-    <script>
-      const d = new Date();
-      document.getElementById('date').innerHTML = d;
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

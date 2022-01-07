@@ -14,28 +14,33 @@
   </head>
   <body>
     <header>
-
     </header>
     <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./stories.html">Stories</a></li>
-        <li><a href="#">News</a></li>
+      <ul class="container">
+        <div class="leftb">
+          <li><a class="item" href="./index.html">Home</a></li>
+          <li><a class="item" href="./about.html">About</a></li>
+          <li><a class="item" href="./stories.html">Stories</a></li>
+          <li><a class="item" href="./school.html">MySchool</a></li>
+          <li><a class="item" href="#">News</a></li>
+        </div>
+        <div class="rightb">          
+            <li><a class="item" href="#">LogIn</a></li>
+            <li><a class="item" href="#">SignUp</a></li>
+          <input class="search" type="text" placeholder="search...">
+          <button type="submit">Search</button>
+        </div>
       </ul>
     </nav>
     <section>
 
     </section>
-    <script src="script.js"></script>
+    <script src="heroes.js"></script>
     <footer>
       <p id="date"></p>
       <span class="material-icons">emoji_nature</span>
       Wish you have a good day :) -Veronica.lin
     </footer>
-    <script>
-      const d = new Date();
-      document.getElementById('date').innerHTML = d;
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
