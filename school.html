@@ -14,26 +14,31 @@
   </head>
   <body>
     <header>
-      <h1 class="headTitle">FrontedDesignSample</h1>
+      <h1 class="headTitle">Fronted Design Sample</h1>
       <h3 class="headText">fronted design & about my life</h3>
     </header>
-    <nav><!--菜單目錄or索引-->
-        <ul class="container">
-            <div class="leftb">
-                <li><a class="item" href="./index.html">Home</a></li>
-                <li><a class="item" href="./about.html">About</a></li>
-                <li><a class="item" href="./stories.html">Stories</a></li>
-                <li><a class="item" href="#">MySchool</a></li>
-                <li><a class="item" href="./news.html">News</a></li>
+    <div class="container">
+      <div class="leftb">
+        <a class="item" href="./index.html">Home</a>
+        <a class="item" href="./about.html">About</a>
+        <a class="item" href="./stories.html">Stories</a>
+        <div class="dropdown">
+        <a class="dropdown-list" href="＃">MySchool</a>
+            <div class="dropdown-content">
+              <a class="item" href="#">Junior</a>
+              <a class="item" href="#">Senior</a>
+              <a class="item" href="./school.html">University</a>
             </div>
-            <div class="rightb">
-                <li><a class="item" href="./login.html">LogIn</a></li>
-                <li><a class="item" href="./signup.html">SignUp</a></li>
-                <input class="search" type="text" placeholder="search...">
-                <button type="submit">Search</button>
-            </div> 
-        </ul>
-      </nav>
+        </div>
+        <a class="item" href="./news.html">News</a>
+      </div>
+      <div class="rightb">
+        <a class="item" href="./login.html">LogIn</a>
+        <a class="item" href="./signup.html">SignUp</a>
+        <input class="search" type="text" placeholder="search...">
+        <button type="submit">Search</button>
+      </div>
+    </div>
     <main>
       <section class="left">
         <h4>天主教輔仁大學</h4>

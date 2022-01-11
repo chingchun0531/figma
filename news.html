@@ -16,24 +16,29 @@
     <header>
     </header>
     <nav>
-      <ul class="container">
+      <div class="container">
         <div class="leftb">
-          <li><a class="item" href="./index.html">Home</a></li>
-          <li><a class="item" href="./about.html">About</a></li>
-          <li><a class="item" href="./stories.html">Stories</a></li>
-          <li><a class="item" href="./school.html">MySchool</a></li>
-          <li><a class="item" href="#">News</a></li>
+          <a class="item" href="./index.html">Home</a>
+          <a class="item" href="./about.html">About</a>
+          <a class="item" href="./stories.html">Stories</a>
+          <div class="dropdown">
+          <a class="dropdown-list">MySchool</a>
+              <div class="dropdown-content">
+                <a class="item" href="#">Junior</a>
+                <a class="item" href="#">Senior</a>
+                <a class="item" href="./school.html">University</a>
+              </div>
+          </div>
+          <a class="item" href="#">News</a>
         </div>
-        <div class="rightb">          
-            <li><a class="item" href="./login.html">LogIn</a></li>
-            <li><a class="item" href="./signup.html">SignUp</a></li>
+        <div class="rightb">
+          <a class="item" href="./login.html">LogIn</a>
+          <a class="item" href="./signup.html">SignUp</a>
           <input class="search" type="text" placeholder="search...">
           <button type="submit">Search</button>
         </div>
-      </ul>
-    </nav>
+      </div>
     <section>
-
     </section>
     <script src="heroes.js"></script>
     <footer>
