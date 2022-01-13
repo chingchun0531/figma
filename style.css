@@ -202,15 +202,6 @@ img{
 .myslides{
   display: none;
 }
-.text{
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 .prev, .next{
   color: #f2f2f2;
   position: absolute;
@@ -240,6 +231,7 @@ img{
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family:  'Satisfy', cursive;;
 }
 .num{
   color: #f2f2f2;
