@@ -1,4 +1,4 @@
-const d = new Date();
+const d = new Date().toLocaleTimeString;
 document.getElementById('date').innerHTML = d;
 
 var slideIndex = 1;
