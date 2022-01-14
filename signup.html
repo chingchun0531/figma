@@ -12,30 +12,32 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="./style.css" />
       </head>
-      <body>
+      <body >
         <header>
-          <h1 class="headTitle">FrontedDesignSample</h1>
-          <h3 class="headText">fronted design & about my life</h3>
+          <h1 class="center"style="font-size: 3.5rem;">FrontedDesignSample</h1>
+          <h3 class="center" style="font-size: 2rem;">fronted design & about my life</h3>
         </header>
-        <nav>
-          <ul class="container">
-            <div class="leftb">
-              <li><a class="item" href="./index.html">Home</a></li>
-              <li><a class="item" href="./about.html">About</a></li>
-              <li><a class="item" href="#">Stories</a></li>
-              <li><a class="item" href="./school.html">MySchool</a></li>
-              <li><a class="item" href="./news.html">News</a></li>   
-            </div>
-            <div class="rightb">
-              <li><a class="item" href="./login.html">LogIn</a></li>
-              <li><a class="item" href="./signup.html">SignUp</a></li>
-              <input class="search" type="text" placeholder="search...">
-              <button type="submit">Search</button>          
-            </div>
-          </ul>
-        </nav>
-        <main>
-        </main>
+        <form class="center">
+          <label for="fname">Username </label>
+          <br>
+          <input class="in" type="text" id="fname" name="fname" placeholder="Enter your name...">
+          <br>
+          <label for="fpassword">Password </label>
+          <br>
+          <input class="in" type="text" id="fpassword" name="fpassword" placeholder="Enter your password...">
+          <br>
+          <label for="fconfirm-password">Confirm Password</label>
+          <br>
+          <input class="in" type="text" id="fconfirm-password" name="fpassword" placeholder="Enter password again...">
+          <br>
+          <label for="femail">Email</label>
+          <br>
+          <input class="in" type="text" id="femail" name="fpassword" placeholder="Enter your email...">
+          <br>
+          <button type="submit" style="padding: 2px 24px ;">Sign Up</button>
+          <button type="button" style="padding: 2px 24px ;">Cancel</button>
+          <br>
+        </form>
         <footer>
           <p id="date"></p>
           <span class="material-icons">emoji_nature</span>

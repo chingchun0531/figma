@@ -28,7 +28,7 @@ section p {
   font-family: 'Noto Sans TC', sans-serif;
 }
 .headTitle{
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .headText{
   font-size: 1rem;
@@ -225,7 +225,7 @@ img{
 }
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -271,4 +271,25 @@ img{
 /*小螢幕時的調整*/
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+.center{ 
+  display: block;
+  text-align: center;
+  position: relative;
+  font-size: 1.25rem;
+  font-family: 'Satisfy', cursive;
+  margin-top: 10px;
+}
+form button{
+  font-family: 'Satisfy', cursive;
+  font-size: 25px;
+  color: white;
+  background-color: #658048;
+  border: none;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+.in{
+  padding: 5px 20px;
+  font-size: 15px;
 }
